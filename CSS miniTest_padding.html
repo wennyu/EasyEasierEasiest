@@ -51,7 +51,11 @@ div{ width:100px;
 				float:left; }	  		
 
 #footer { color:black;
-                     clear:both;}				
+                     clear:both;}
+
+#clearleft {
+  clear:left;
+} 					 
 	  
 </style>
 </head>
@@ -69,16 +73,24 @@ CSS5 margin-left為160 (減10是因其和右框線相接)
 <hr/>
 <P>浮動方框:
 <BR>
-e.g.設定圖片靠左浮動，則可產生文繞圖效果。
-<BR>
-e.g.承上，指定浮動方框的寬度，可取消文繞圖而類似多欄呈現。
 </P>
 <div id="div6">浮動_左_CSS6</div>
 <div id="div7">浮動_左_CSS7</div>
+<p>未消除浮動效果<hr/></p>
+<P id="clearleft"><hr/>以clear消除浮動效果<hr/></p> 
+e.g.設定圖片靠左浮動，則可產生文繞圖效果。
+<BR>
+e.g.承上，指定浮動方框的寬度，可取消文繞圖而類似多欄呈現。
+<BR>
 <div id="div8">浮動_左_CSS8</div>
-待刪除文字<br>
-待刪除文字<br>
-待刪除文字<br>
+<P>
+測試文字<BR>
+測試文字<BR>
+測試文字<BR>
+測試文字<BR>
+測試文字<BR>
+測試文字<BR>
+</P>
 <P id="footer"><hr/>練習題取自:陳會安/ISBN:9789863120384</P>
 </body>
 </html>
