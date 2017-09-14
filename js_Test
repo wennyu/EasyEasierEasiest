@@ -1,0 +1,44 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<!-- META http-equiv="Content-Type" content="text/html; charset=UTF-8"-->
+<!-- 語系編碼，更適合放在title之前-->
+<title>Hello,World.</title>
+</head>
+
+<body>
+<h3>本頁HTML使用UTF-8編碼 </h3>
+
+<script language="JavaScript">
+<!-- HTML註解，用以使老舊的瀏覽器忽略 JavaScript。-->
+//Script註解標記
+
+<!-- 
+document.write("Hello,World. This sentence is written using JavaScript.");
+//指示瀏覽器在顯示中的一頁 (document) 寫 (write) 一句 Hello, World 的字串。
+//Text on the right of 2 slashes is comment
+/*
+This is comment that occur more than 1 line
+*/
+-->
+<!--  document (頁／文件) 指當時瀏覽器視窗顯示的一頁內容，未必是一個實在的檔案內容， 因為該頁的全部內容可能是用 JavaScript 動態地寫出來的。document 是顯示的內容， 而非檔案內容。-->
+
+</script>
+
+<noscript>
+Sorry, but your browser doesn't run JaveScript.
+</noscript>
+<!--  <noscript> 要寫在  <body>  範圍裡-->
+
+<h3>This line is HTML </h3>
+教學取自：
+<BR>
+http://taiwantc.com/js/htm
+<BR>
+http://mirlab.org/jang/books/html/metaCharset.asp?title=5-2%20%BBy%A8%A5%BDs%BDX
+<BR>
+
+</body>
+</html>
+
+
