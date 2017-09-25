@@ -1,0 +1,140 @@
+
+<html>
+<head>
+<meta charset="utf-8"/>
+
+<style>
+
+/*全頁box-sizing設定*/
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#div0 {
+		max-width:600px;
+		margin: 50px auto;
+		border: double #007799 3px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+          box-sizing: border-box;
+		  }
+
+#div1{
+		width:500px;
+		margin: 20px auto;
+		border: solid red;
+		/*
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+          box-sizing: border-box;
+		  */
+		  }
+
+#div2 {
+		width: 500px;
+		margin: 20px auto;
+		padding: 50px;
+		border-width: 10px;
+		border: solid blue ;
+		 /*
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+          box-sizing: border-box;
+		 */
+		}
+
+#div3 {
+		max-width:500px;
+		margin: 20px auto;
+		border: solid red 10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+          box-sizing: border-box;
+		  }
+
+#div4 {
+		max-width: 500px;
+		margin: 20px auto;
+		padding: 20px;
+		border: solid blue 10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+          box-sizing: border-box;
+		  }
+		 
+.relative1 {
+  position: relative;
+   background-color: #FFB7DD;
+}
+.relative2 {
+  position: relative;
+  top: -15px;
+  left: 20px;
+  background-color: #FFEE99;
+  width: 500px;
+}
+
+.fixed{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  background-color:  #CCEEFF;
+}
+		  
+</style>
+
+</head>
+
+<body>
+
+<div id="div0">
+<span style=
+"background-color:#CCDDFF;" >
+<span style= color:#550088 ; " >
+display  </span>
+屬性</span>，
+預設值通常是 block 或 inline .
+ <BR>
+ block ：區塊元素。 
+  <BR>
+ inline： 行內元素。 
+ <BR>
+ <p>
+ 本例使用了「margin為auto」作為水平置中
+ </P>
+</div>
+
+
+ <p>
+ <span style=
+"background-color:#CCDDFF;">
+使用box-sizing　讓元素寬度不受邉框margin、內距padding 影響。
+</span>
+ </P>
+
+ 
+<div id="div1">width 欄寬固定</div>
+<div id="div2">width 欄寬固定</div>
+<div id="div3">max-width 可以放大、縮小視窗看看效果</div>
+<div id="div4">max-width 可以放大、縮小視窗看看效果</div>
+
+<div class = "relative1 ">relative一般如同static預設值，「不會被特別定位」在頁面上特定位置。
+<BR>
+<BR>
+</div>
+<div class = "relative2 ">在position: relativ 增加各邊界屬性
+<BR>似乎可以做出很有趣的疊疊樂磚塊牆
+</div>
+
+<div class="fixed">這頁是練習<a href=" http://zh-tw.learnlayout.com/ ">Will保哥的教學</a>
+</div>
+
+
+
+</body>
+
+
+</html>
