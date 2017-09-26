@@ -26,6 +26,7 @@
 		margin: 20px auto;
 		border: solid red;
 		/*
+		改使用全頁設定
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -39,6 +40,7 @@
 		border-width: 10px;
 		border: solid blue ;
 		 /*
+		 改使用全頁設定
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -78,11 +80,28 @@
 
 .fixed{
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 5PX;
+  right: 5PX;
   width: 200px;
   background-color:  #CCEEFF;
 }
+
+.relative3 {
+  position: relative;
+  width: 600px;
+  height: 400px;
+ border: double #007799 3px;
+}
+
+.absolute {
+  position: absolute;
+  top: 120px;
+  right: 0;
+  width: 300px;
+  height: 200px;
+   background-color: #FFCCCC;
+}
+
 		  
 </style>
 
@@ -129,10 +148,17 @@ display  </span>
 <BR>似乎可以做出很有趣的疊疊樂磚塊牆
 </div>
 
-<div class="fixed">這頁是練習<a href=" http://zh-tw.learnlayout.com/ ">Will保哥的教學</a>
+<div class="fixed">fixed<BR>這頁是練習<a href=" http://zh-tw.learnlayout.com/ ">Will保哥的教學</a>
 </div>
 
-
+<div class="relative3">
+relative
+<div class="absolute">absolute
+<BR>
+相對父元素的絕對定位（所處上層容器的相對位置）
+<BR>留意 /Div 的位置。
+</div>
+</div>
 
 </body>
 
