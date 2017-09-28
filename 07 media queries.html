@@ -1,0 +1,67 @@
+<!DOCTYPE html/>
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<style>
+@import url(Common.CSS);
+
+
+  .container {
+  position: relative;
+  border: solid red;
+ }
+
+ @media screen and (min-width:600px) {
+nav {
+  float: left;
+  width: 25%;
+  border: solid green;
+}
+
+section {
+  margin-left: 25%;
+  border: solid blue;
+  }
+ ｝ 
+ 
+ @media screen and (max-width:599px) {
+  nav li {
+    display: inline;
+  }
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>媒體查詢（media queries）</h2>
+<ul>
+<li>響應式設計（Responsive Design）。
+<li>當瀏覽器寬度小到無法容納側邊欄中的選單時，把版面配置顯示成一欄。
+</ul>
+
+<div class = "container">
+<nav>
+ 在nav使用
+<ul>
+<li> float: left</li>
+<li>width: 25%</li>
+</ul>
+</nav>
+<section>TESTsection= margin-left: 25%; </section>
+<section>縮小視窗，nav不會被擠壓。</section>
+<section>縮小視窗，版面配置變成一欄。</section>
+</div>
+
+<div class="RightFixed">fixed<BR>這頁是練習<a href=" http://zh-tw.learnlayout.com/ ">Will保哥的教學</a>
+</div>
+
+</body>
+
+</html>

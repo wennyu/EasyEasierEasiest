@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<style>
+@import url(Common.CSS);
+
+article img {
+  float: right;
+  max-width: 50%; 
+  min-width:20%;
+}
+
+  .container {
+  position: relative;
+  border: solid red;
+ }
+
+nav {
+  float: left;
+  width: 25%;
+  border: solid green;
+}
+
+section {
+  margin-left: 25%;
+  border: solid blue;
+  }
+  
+
+.clearfix {
+  overflow: auto;
+}
+
+</style>
+</head>
+
+<body>
+<article class="clearfix">
+<img src="https://github.com/wennyu/EasyEasierEasiest/blob/master/survey-2316468_640.png?raw=true" alt="測試圖片" title="測試圖示" >
+<p>縮放視窗，右側圖片依視窗大小比例縮放
+  <BR>max-width:50%; > 限制圖片的最大寬度
+  <BR>min-width:20%; >  限制圖片的最小寬度
+</p>
+<p>讚嘆overflow: auto！</p>
+</article>
+
+<span><hr></span>
+
+<div class = "container">
+<nav>
+ 在nav直接使用
+<ul>
+<li> float: left</li>
+<li>width: 25%</li>
+</ul>
+</nav>
+<section>TESTsection= margin-left: 25%; </section>
+<section>縮小視窗，nav會被擠壓</section>
+<section>且無法在 nav 上使用 min-width 屬性修正</section>
+</div>
+注意本行文字位置。
+<span><BR></span><hr>
+欄寬解　>>　使用 媒體查詢（media queries）
+
+
+
+
+
+
+<div class="RightFixed">fixed<BR>這頁是練習<a href=" http://zh-tw.learnlayout.com/ ">Will保哥的教學</a>
+</div>
+
+</body>
+
+</html>
