@@ -1,0 +1,13 @@
+body{
+  background-color: #F6F4EC;
+}
+
+
+.RightFixed{
+  position: fixed;
+  bottom: 5PX;
+  right: 5PX;
+  width: 200px;
+  background-color:  	#FFE4B5;
+  border: double #8B4513 3px;
+}
