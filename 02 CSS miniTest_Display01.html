@@ -111,6 +111,14 @@
 
 <body>
 
+ <p>
+ <span style=
+"background-color:#CCDDFF;">
+使用box-sizing　讓元素寬度不受邉框margin、內距padding 影響。<BR>
+已設定全頁面box-sizing。
+</span>
+ </P>
+
 <div id="div0">
 <span style=
 "background-color:#CCDDFF;" >
@@ -121,26 +129,26 @@ display  </span>
  <BR>
  block ：區塊元素。 
   <BR>
- inline： 行內元素。 
+ inline： 行內元素，如span等。
  <BR>
  <p>
- 本例使用了「margin為auto」作為水平置中
+ 本例使用了「max-width + margin為auto」作為水平置中。適用於行動裝置。
  </P>
 </div>
+
 
 
  <p>
  <span style=
 "background-color:#CCDDFF;">
-使用box-sizing　讓元素寬度不受邉框margin、內距padding 影響。
+下四個紅藍框，可放大、縮小視窗比較 「width 」、「max-width」 效果
 </span>
  </P>
-
  
-<div id="div1">width 欄寬固定</div>
-<div id="div2">width 欄寬固定</div>
-<div id="div3">max-width 可以放大、縮小視窗看看效果</div>
-<div id="div4">max-width 可以放大、縮小視窗看看效果</div>
+<div id="div1">指定width 最大值 + margin為auto。</div>
+<div id="div2">指定width 最大值 + margin為auto。</div>
+<div id="div3">max-width + margin為auto。　</div>
+<div id="div4">max-width + margin為auto 。　</div>
 
 <div class = "relative1 ">relative一般如同static預設值，「不會被特別定位」在頁面上特定位置。
 <BR>
